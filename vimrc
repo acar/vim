@@ -21,6 +21,9 @@ set scrolloff=3
 set hlsearch
 set incsearch
 
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
 vmap > >gv
 vmap < <gv
