@@ -5,6 +5,8 @@ call pathogen#runtime_append_all_bundles()
 syntax enable
 set smartindent
 
+au BufRead,BufNewFile *.ihtml set filetype=html
+
 " set ai
  
 set ignorecase
